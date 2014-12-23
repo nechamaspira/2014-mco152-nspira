@@ -59,6 +59,10 @@ public class WeatherFrame extends JFrame {
 		// but need to tell it what member var are
 
 		// want to change string form json and give us back a class
+	
+		//WeatherDownloadThread thread = new WeatherDownloadThread();
+		//thread.start();
+		
 		Weather array[] = now.getWeather();
 		// Image icon =null;
 		URL picturUrl = new URL("http://openweathermap.org/img/w/"
