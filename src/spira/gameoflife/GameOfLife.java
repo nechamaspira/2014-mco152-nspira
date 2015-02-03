@@ -10,6 +10,7 @@ import java.util.Random;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JPanel;
 
 public class GameOfLife extends JFrame {
 	private static final int COL = 20;
@@ -25,7 +26,7 @@ public class GameOfLife extends JFrame {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setLocationRelativeTo(null);
 
-		Container container = new Container();
+		JPanel container = new JPanel();
 		container.setLayout(new GridLayout(COL, ROW));
 
 		Container container2 = getContentPane();
